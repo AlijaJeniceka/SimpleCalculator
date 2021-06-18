@@ -13,7 +13,7 @@ public class Main {
         secondNumber = 7;
         answer = 0;
 
-        // Mathematical Operator
+        // Mathematical Operat
         String operator = "-";
 
         if (operator.equals("+")) {
