@@ -13,15 +13,22 @@ public class Main {
         secondNumber = 7;
         answer = 0;
 
-        // Mathematical Operat
+        // Mathematical Operator
         String operator = "-";
+        String operatorTwo = "*";
 
         if (operator.equals("+")) {
             answer = firstNumber + secondNumber;
         } else if (operator.equals("-")) {
             answer = firstNumber - secondNumber;
-        } //
-       // Do the else if statements for the multiplication and division
+        }
+        System.out.println(answer);
+        //Home work
+        if (operatorTwo.equals("*")) {
+            answer = firstNumber * secondNumber;
+        } else if (operatorTwo.equals("/")) {
+            answer = firstNumber / secondNumber;
+        }
         System.out.println(answer);
     }
 }
